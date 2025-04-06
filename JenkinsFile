@@ -2,13 +2,13 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_USERNAME = 'ragavit' // 🔁 replace with your Docker Hub username
+        DOCKERHUB_USERNAME = 'resmasre' // 🔁 replace with your Docker Hub username
     }
 
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/ragavithangaraj/react-restaurant.git' // 🔁 replace with your GitHub repo URL
+                git 'https://github.com/Resmasre/Final.git' // 🔁 replace with your GitHub repo URL
             }
         }
 
