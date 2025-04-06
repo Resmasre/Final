@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: react-app
-        image: ragavit/react-app:latest
+        image: resmasre/final:latest
         ports:
         - containerPort: 80
 ---
